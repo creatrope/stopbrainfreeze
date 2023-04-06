@@ -14,7 +14,7 @@ We believe that positive affirmations can have a powerful impact on our lives. B
 
 <script>
   // Load the affirmations JSON data
-  fetch('{{ site.baseurl }}/data/affirmations.json')
+  fetch('{{ site.baseurl }}/_data/affirmations.json')
     .then(response => response.json())
     .then(data => {
       // Pick a random affirmation
