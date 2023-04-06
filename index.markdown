@@ -26,3 +26,12 @@ We believe that positive affirmations can have a powerful impact on our lives. B
 Check out our resources page for more information about the power of affirmations and how to incorporate them into your daily routine.
 
 Thank you for visiting our site! We hope that our affirmations help you cultivate a positive mindset and live your best life.
+
+here's a printout
+<ul>
+{% for member in site.data.affirmations %}
+  <li>
+      {{ member }}
+  </li>
+{% endfor %}
+</ul>
