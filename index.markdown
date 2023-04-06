@@ -13,7 +13,7 @@ We believe that positive affirmations can have a powerful impact on our lives. B
 > I am capable of achieving my goals and living my dreams. I believe in myself and my abilities.
 
 ### Submit An Affirmation for Processing
-##### Your affirmation will be submitted to our servers and repeated to the universe, 1000x within a week!
+##### _Your affirmation will be submitted to our servers and repeated to the universe, 1000x within a week!_
 
 {% include contact-form.html %}
 
