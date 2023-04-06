@@ -25,8 +25,4 @@ Check out our resources page for more information about the power of affirmation
 
 Thank you for visiting our site! We hope that our affirmations help you cultivate a positive mindset and live your best life.
 
-{% raw %}
-<script src="{{ site.baseurl }}/assets/js/aotd.js"></script>
-{% endraw %}
-
-v3
+v4
