@@ -12,7 +12,21 @@ We believe that positive affirmations can have a powerful impact on our lives. B
 
 <p id="affirmation"></p>
 
-<script src="{{ site.baseurl }}/assets/js/aotd.js"></script>
+<script>
+  // Load the affirmations JSON data
+  fetch('{{ site.baseurl }}/data/affirmations.json')
+    .then(response => response.json())
+    .then(data => {
+      // Pick a random affirmation
+      const index = Math.floor(Math.random() * data.affirmations.length);
+      const affirmation = data.affirmations[index];
+
+      // Display the affirmation
+      const affirmationElement = document.getElementById('affirmation');
+      affirmationElement.textContent = affirmation;
+    })
+    .catch(error => console.error(error));
+</script>
 
 ### Submit An Affirmation for Processing
 #### _Your affirmation will be submitted to our servers and repeated to the universe, 1000x within a week!_ 
@@ -25,4 +39,4 @@ Check out our resources page for more information about the power of affirmation
 
 Thank you for visiting our site! We hope that our affirmations help you cultivate a positive mindset and live your best life.
 
-v4
+v5
