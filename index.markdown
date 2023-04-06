@@ -3,7 +3,6 @@ layout: page
 title: Welcome to The Affirmatron
 ---
 
-## Welcome to The Affirmatron
 #### _The World's First Fully Automated Affirmation Machine_
 
 We believe that positive affirmations can have a powerful impact on our lives. By consistently repeating positive thoughts and beliefs, we can cultivate a more optimistic and confident mindset. You tell us your affirmation and we repeat it thousands of times to help make it come true! We believe that everyone deserves to feel confident, empowered, and inspired to live their best life.
@@ -12,8 +11,8 @@ We believe that positive affirmations can have a powerful impact on our lives. B
 
 <p>Your affirmation for today is: <i><span id="affirmation"></span></i></p>
 
-## Submit An Affirmation for Processing
-#### _Your affirmation will be submitted to our servers and repeated to the universe, 1000x within a week!_ 
+### Submit An Affirmation for Processing
+Your affirmation will be submitted to our servers and repeated to the universe, 1000x within a week!
 
 {% include contact-form.html %}
 
