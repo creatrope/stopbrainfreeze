@@ -1,21 +1,19 @@
 ---
 layout: page
-title: Welcome to Affirmatron
+title: Welcome to The Affirmatron
 ---
 
-# Welcome to our Affirmations Website!
+# Welcome to The Affirmatron
+## _The World's First Fully Automated Affirmation Machine_
 
-We believe that positive affirmations can have a powerful impact on our lives. By consistently repeating positive thoughts and beliefs, we can cultivate a more optimistic and confident mindset.
-
-## Our Mission
-
-Our mission is to provide you with daily affirmations that can help you develop a positive mindset and overcome negative self-talk. We believe that everyone deserves to feel confident, empowered, and inspired to live their best life.
+We believe that positive affirmations can have a powerful impact on our lives. By consistently repeating positive thoughts and beliefs, we can cultivate a more optimistic and confident mindset. You tell us your affirmation and we repeat it thousands of times to help make it come true! We believe that everyone deserves to feel confident, empowered, and inspired to live their best life.
 
 ## Today's Featured Affirmation
 
 > I am capable of achieving my goals and living my dreams. I believe in myself and my abilities.
 
 ## Submit An Affirmation for Processing
+### Your affirmation will be submitted to our servers and repeated to the universe, 1000x within a week!
 
 {% include contact-form.html %}
 
