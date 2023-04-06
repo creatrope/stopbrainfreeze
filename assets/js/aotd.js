@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('quote').innerHTML = '<blockquote class="not-prose"><p>' + quote.text + '</p><p><em>- ' + quote.author + '</em></p></blockquote>';
     })
     .catch(res => {
-        console.error('Could not fetch quotes.json'); 
+        console.error('Could not fetch affirmations.json'); 
         console.error(res); 
     });
 });
