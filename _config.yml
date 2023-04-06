@@ -10,10 +10,10 @@
 ############################
 
 # Name of website
-title: My Website
+title: Affirmatron
 
 # Your name to show in the footer
-author: Some Person
+author: Creatrope
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -49,13 +49,13 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
+  email: "admin@affirmatron.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
+  facebook: affirmatron
+  github: creatrope
+  twitter: affirmatron
+  patreon: affirmatron
+  youtube: c/affirmatron
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
@@ -289,4 +289,6 @@ plugins:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
+
+paginate_path: "/blog/page:num/"
 
