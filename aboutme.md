@@ -4,5 +4,4 @@ title: About me
 subtitle: Why affirmations?
 ---
 
-I'm interested in the way affirmations may affect you and the world around you.
-
+I'm interested in the helping people learn simple techniques that can dramatically affect their outlook.
