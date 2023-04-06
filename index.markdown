@@ -8,7 +8,7 @@ title: Welcome to The Affirmatron
 
 We believe that positive affirmations can have a powerful impact on our lives. By consistently repeating positive thoughts and beliefs, we can cultivate a more optimistic and confident mindset. You tell us your affirmation and we repeat it thousands of times to help make it come true! We believe that everyone deserves to feel confident, empowered, and inspired to live their best life.
 
-### Today's Featured Affirmation v16
+### Today's Featured Affirmation v17
 
 <p>Your affirmation for today is: <span id="affirmation"></span></p>
 <script src="{{ 'assets/js/random_affirmation.js' | relative_url }}"></script>
