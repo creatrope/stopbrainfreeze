@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    let response = fetch('/assets/quotes.json')
+    let response = fetch('/assets/affirmations.json')
     .then(res => res.text())
     .then(data => {
         let json = JSON.parse(data);
