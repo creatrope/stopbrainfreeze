@@ -13,7 +13,7 @@ We believe that positive affirmations can have a powerful impact on our lives. B
 <div id="quote"></div>
 
 ### Submit An Affirmation for Processing
-##### _Your affirmation will be submitted to our servers and repeated to the universe, 1000x within a week!_
+#### _Your affirmation will be submitted to our servers and repeated to the universe, 1000x within a week!_ 
 
 {% include contact-form.html %}
 
@@ -26,3 +26,5 @@ Thank you for visiting our site! We hope that our affirmations help you cultivat
 {% raw %}
 <script src="{{ site.baseurl }}/assets/js/aotd.js"></script>
 {% endraw %}
+
+v2
