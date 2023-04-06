@@ -11,7 +11,7 @@ We believe that positive affirmations can have a powerful impact on our lives. B
 ### Today's Featured Affirmation v13
 
 <ul>
-{% assign lines = site.data.members | newline_to_br | strip_newlines | strip | split: '<br />' %}
+{% assign lines = site.data.affirmations | newline_to_br | strip_newlines | strip | split: '<br />' %}
 {% assign random_index = lines | size | times: rand | round %}
 {{ lines[random_index] }}
 </ul>
