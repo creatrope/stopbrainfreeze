@@ -10,7 +10,9 @@ We believe that positive affirmations can have a powerful impact on our lives. B
 
 ## Today's Featured Affirmation
 
-<div id="quote"></div>
+<p id="affirmation"></p>
+
+<script src="{{ site.baseurl }}/assets/js/aotd.js"></script>
 
 ### Submit An Affirmation for Processing
 #### _Your affirmation will be submitted to our servers and repeated to the universe, 1000x within a week!_ 
@@ -27,4 +29,4 @@ Thank you for visiting our site! We hope that our affirmations help you cultivat
 <script src="{{ site.baseurl }}/assets/js/aotd.js"></script>
 {% endraw %}
 
-v2
+v3
