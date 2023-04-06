@@ -8,7 +8,7 @@ title: Welcome to The Affirmatron
 
 We believe that positive affirmations can have a powerful impact on our lives. By consistently repeating positive thoughts and beliefs, we can cultivate a more optimistic and confident mindset. You tell us your affirmation and we repeat it thousands of times to help make it come true! We believe that everyone deserves to feel confident, empowered, and inspired to live their best life.
 
-## Today's Featured Affirmation
+## Today's Featured Affirmation v6
 
 <p id="affirmation"></p>
 
@@ -38,5 +38,3 @@ We believe that positive affirmations can have a powerful impact on our lives. B
 Check out our resources page for more information about the power of affirmations and how to incorporate them into your daily routine.
 
 Thank you for visiting our site! We hope that our affirmations help you cultivate a positive mindset and live your best life.
-
-v5
