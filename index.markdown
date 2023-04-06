@@ -8,10 +8,9 @@ title: Welcome to The Affirmatron
 
 We believe that positive affirmations can have a powerful impact on our lives. By consistently repeating positive thoughts and beliefs, we can cultivate a more optimistic and confident mindset. You tell us your affirmation and we repeat it thousands of times to help make it come true! We believe that everyone deserves to feel confident, empowered, and inspired to live their best life.
 
-### Today's Featured Affirmation v17
+### Today's Featured Affirmation
 
-<p>Your affirmation for today is: <span id="affirmation"></span></p>
-<script src="{{ 'assets/js/random_affirmation.js' | relative_url }}"></script>
+<p>Your affirmation for today is: <i><span id="affirmation"></span></i></p>
 
 ## Submit An Affirmation for Processing
 #### _Your affirmation will be submitted to our servers and repeated to the universe, 1000x within a week!_ 
@@ -24,11 +23,8 @@ Check out our resources page for more information about the power of affirmation
 
 Thank you for visiting our site! We hope that our affirmations help you cultivate a positive mindset and live your best life.
 
-here's a printout
-<ul>
-{% for member in site.data.affirmations %}
-  <li>
-      {{ member }}
-  </li>
-{% endfor %}
-</ul>
+<script>
+const affirmations = {{ site.data.affirmations | jsonify }};
+const randomIndex = Math.floor(Math.random() * affirmations.length);
+document.getElementById("affirmation").innerHTML = affirmations[randomIndex];
+</script>
