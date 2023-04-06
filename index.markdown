@@ -10,11 +10,8 @@ We believe that positive affirmations can have a powerful impact on our lives. B
 
 ### Today's Featured Affirmation v16
 
-<ul>
-{% assign lines = site.data.affirmations | newline_to_br | strip_newlines | strip | split: '<br />' %}
-{% assign random_index = lines | size | times: rand | round %}
-{{ lines[random_index] }}
-</ul>
+<p>Your affirmation for today is: <span id="affirmation"></span></p>
+<script src="{{ 'assets/js/random_affirmation.js' | relative_url }}"></script>
 
 ## Submit An Affirmation for Processing
 #### _Your affirmation will be submitted to our servers and repeated to the universe, 1000x within a week!_ 
