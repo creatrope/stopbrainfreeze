@@ -15,20 +15,10 @@ In addition to their research efforts, the Brain Freeze Research Foundation is a
 
 Overall, the Brain Freeze Research Foundation is a valuable resource for individuals who experience brain freeze, as well as for healthcare providers and researchers who are working to better understand and treat this condition. Their dedication to research and education is helping to improve the lives of countless individuals who suffer from this common but often overlooked problem.
 
-### Today's Featured Affirmation
-
-<p>Your affirmation for today is: <i><span id="affirmation"></span></i></p>
-
 ### Contact Us
 
 {% include contact-form.html %}
 
 ## Resources
 
-Check out our resources page for more information about brain freeze 
-
-<script>
-const affirmations = {{ site.data.affirmations | jsonify }};
-const randomIndex = Math.floor(Math.random() * affirmations.length);
-document.getElementById("affirmation").innerHTML = affirmations[randomIndex];
-</script>
+Check out our resources page for more information about brain freeze.
