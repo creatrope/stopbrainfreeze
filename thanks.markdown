@@ -5,6 +5,6 @@ subtitle: Your Affirmation is being processed
 permalink: /thanks
 ---
 
-Your affirmation will begin processing shortly. Within one week, it will be asserted 1000x times to the universe!  Let us know if it comes true!
+Thank you for contacting us.  We will get back to you shortly.
 
 [Return to home page](index)
